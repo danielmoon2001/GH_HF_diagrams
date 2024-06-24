@@ -41,29 +41,29 @@
             margin-top: 2em; /* Adjust margin as needed */
         }
         .legend-container {
-            border: 2px solid #005000; /* Dark green border */
+            border: 1px solid #005000; /* Dark green border, thinner */
             padding: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 40px; /* More whitespace between each cluster */
             margin: 20px auto;
             width: fit-content;
         }
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 10px; /* More whitespace between button and text */
         }
         .legend-button {
-            width: 20px;
+            width: 40px; /* Wider rectangle */
             height: 20px;
-            border-radius: 50%;
+            border-radius: 5px;
             display: inline-block;
         }
         .legend-text {
             font-family: 'Arial', sans-serif;
-            font-size: 1em;
+            font-size: 1.5em; /* h2 size */
         }
     </style>
 </head>
@@ -96,24 +96,24 @@
 <br>
 <div class="legend-container">
     <div class="legend-item">
-        <div class="legend-button" style="background-color: red;"></div>
-        <div class="legend-text">1. 방황하는 초보 고객</div>
+        <div class="legend-button" style="background-color: #b30000;"></div> <!-- Darker red -->
+        <div class="legend-text">방황하는 초보 고객</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: blue;"></div>
-        <div class="legend-text">2. 필요할 때 찾는 철새 고객</div>
+        <div class="legend-button" style="background-color: #003399;"></div> <!-- Darker blue -->
+        <div class="legend-text">필요할 때 찾는 철새 고객</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: orange;"></div>
-        <div class="legend-text">3. 말 많은 세미 단골</div>
+        <div class="legend-button" style="background-color: #cc8400;"></div> <!-- Darker orange -->
+        <div class="legend-text">말 많은 세미 단골</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: lightgreen;"></div>
-        <div class="legend-text">4. 묵묵한 찐 단골</div>
+        <div class="legend-button" style="background-color: #669966;"></div> <!-- Darker light green -->
+        <div class="legend-text">묵묵한 찐 단골</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: violet;"></div>
-        <div class="legend-text">5. 떠난 고객</div>
+        <div class="legend-button" style="background-color: #993399;"></div> <!-- Darker violet -->
+        <div class="legend-text">떠난 고객</div>
     </div>
 </div>
 <br>

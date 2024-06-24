@@ -41,12 +41,12 @@
             margin-top: 2em; /* Adjust margin as needed */
         }
         .legend-container {
-            border: 1px solid #005000; /* Dark green border, thinner */
+            border: 0.5px solid #005000; /* Dark green border, thinner */
             padding: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 40px; /* More whitespace between each cluster */
+            gap: 42px; /* More whitespace between each cluster */
             margin: 20px auto;
             width: fit-content;
         }
@@ -93,33 +93,30 @@
 <br>
 <br>
 <br>
+<h1 class="ui center aligned large header" data-aos="fade-up">1. 고객 클러스터 분포</h1>
 <br>
 <div class="legend-container" data-aos="fade-up">
     <div class="legend-item">
-        <div class="legend-button" style="background-color: #b30000;"></div> <!-- Darker red -->
-        <div class="legend-text">방황하는 초보 고객</div>
+        <div class="legend-button" style="background-color: #cc0000;"></div> <!-- Darker red -->
+        <div class="legend-text"> 방황하는 초보 고객</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: #003399;"></div> <!-- Darker blue -->
-        <div class="legend-text">필요할 때 찾는 철새 고객</div>
+        <div class="legend-button" style="background-color: #3366cc;"></div> <!-- Darker blue -->
+        <div class="legend-text"> 필요할 때 찾는 철새 고객</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: #cc8400;"></div> <!-- Darker orange -->
-        <div class="legend-text">말 많은 세미 단골</div>
+        <div class="legend-button" style="background-color: orange;"></div> <!-- Darker orange -->
+        <div class="legend-text"> 말 많은 세미 단골</div>
     </div>
     <div class="legend-item">
-        <div class="legend-button" style="background-color: #669966;"></div> <!-- Darker light green -->
-        <div class="legend-text">묵묵한 찐 단골</div>
+        <div class="legend-button" style="background-color: green;"></div> <!-- Darker light green -->
+        <div class="legend-text"> 묵묵한 찐 단골</div>
     </div>
     <div class="legend-item">
         <div class="legend-button" style="background-color: #993399;"></div> <!-- Darker violet -->
-        <div class="legend-text">떠난 고객</div>
+        <div class="legend-text"> 떠난 고객</div>
     </div>
 </div>
-<br>
-<br>
-<h1 class="ui center aligned large header" data-aos="fade-up">1. 고객 클러스터 분포</h1>
-<br>
 <div class="iframe-container" data-aos="fade-up">
     <iframe src="https://danielmoon2001.github.io/GH_HF_diagrams/tsne.html" width="1300" height="800" frameborder="0" data-aos="fade-up" style="display:block; margin:auto;"></iframe>
 </div>
